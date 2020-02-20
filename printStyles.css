@@ -1,3 +1,70 @@
-button{
-  display:none;
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+button.btn{
+  display: none !important;
+}
+input{
+  display: none !important;
+}
+.breadcrumb{
+  padding: .6rem !important;
+}
+ul{
+  list-style-type: none;
+}
+.nav-item{
+  display: none;
+}
+.breadcrumb-container{
+  display: none !important;
+}
+.lSSlideOuter {
+  display: flex;
+  padding: 5px !important;
+}
+.lSSlideWrapper {
+  display: none !important;
+}
+.product-info {
+  margin-left: 5px;
+}
+.lSPager {
+  width: 100% !important;
+}
+.lSPager li{
+  width: 80% !important;
+  margin: 0 auto !important;
+  display: none !important;
+}
+.lSPager li.active{
+  display: block !important;
+}
+.lSPager li a{
+  width: 100%;
+}
+.lSPager a img{
+  max-width: 100%;
+  height: auto;
+}
+.product-info {
+  padding: 5px !important;
+}
+.print-page {
+  display: none !important;
+}
+.router-link-exact-active {
+  display: none !important;
+}
+.tab-pane{
+  display: block !important;
+  padding: 5px !important;
+}
+.tab-pane p, .tab-pane li{
+  margin: .8rem 0 !important;
+}
+.badge {
+  padding: .3rem !important;
 }
