@@ -15,9 +15,6 @@ input{
 ul{
   list-style-type: none;
 }
-.nav-item{
-  display: none;
-}
 .breadcrumb-container{
   display: none !important;
 }
@@ -67,4 +64,26 @@ ul{
 }
 .badge {
   padding: .3rem !important;
+}
+.first-price{
+  margin-top: 10px !important;
+  color: #dc3545!important;
+}
+.title{
+  font-size: 1.6rem;
+}
+.first-price span {
+  font-size: 1.2rem !important;
+  color: black;
+}
+.product-price{
+  padding: 15px !important;
+  border-bottom: rgba(34, 34, 34, 0.12) solid 2px !important;
+}
+.product-cart{
+  border-bottom: rgba(34, 34, 34, 0.12) solid 2px !important;
+}
+.tab-pane ul{
+  padding-left: 40px !important;
+  list-style-type: disc;
 }
