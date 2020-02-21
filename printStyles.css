@@ -124,6 +124,9 @@ th, td{
   font-size: .8rem !important;
   padding: 10px !important;
 }
+.table{
+  font-size: .8rem !important;
+}
 .tab-content .tab-pane::before{
   display: block;
   font-weight: bold;
