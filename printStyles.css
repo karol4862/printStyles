@@ -29,6 +29,7 @@ ul{
 .lSSlideOuter {
   display: flex;
   padding: 5px !important;
+  height: 100% !important;
 }
 .lSSlideWrapper {
   display: none !important;
@@ -59,12 +60,16 @@ th, td{
   width: 80% !important;
   margin: 0 auto !important;
   display: none !important;
+  height: 100% !important;
 }
 .lSPager li.active{
   display: block !important;
 }
 .lSPager li a{
   width: 100%;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center;
 }
 .lSPager a img{
   max-width: 100%;
