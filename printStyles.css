@@ -128,3 +128,22 @@ th, td{
   font-size: .8rem !important;
   padding: 10px !important;
 }
+.tab-content .tab-pane::before{
+  display: block;
+  font-weight: bold;
+  font-size: .85rem;
+  margin: .4rem 0 .4rem -8px;
+  text-transform: uppercase;
+}
+.tab-content .tab-pane:nth-child(1)::before{
+  content: ' Wersje produktu ';
+}
+.tab-content .tab-pane:nth-child(2)::before{
+  content: ' Produkty powiązane ';
+}
+.tab-content .tab-pane:nth-child(3)::before{
+  content: ' Opis ';
+}
+.tab-content .tab-pane:nth-child(4)::before{
+  content: ' Opis dodatkowy ';
+}
