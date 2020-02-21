@@ -68,12 +68,16 @@ th, td{
 .lSPager li a{
   width: 100%;
   height: 100% !important;
-  display: flex !important;
-  align-items: center;
+  display: block !important;
+  position: relative;
 }
 .lSPager a img{
   max-width: 100%;
   height: auto;
+  position: absolute;
+  left:0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .product-info {
   padding: 5px !important;
